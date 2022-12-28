@@ -19,7 +19,6 @@ export const serverStart = () => {
   const server = app.listen(port, () => {
     console.log(`app listening at port number ${port}`);
   });
-  console.log(server);
   return server;
 };
 export const serverStop = async (server) => {
