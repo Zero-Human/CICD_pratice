@@ -1,0 +1,31 @@
+{
+  "name": "cicd_pratice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zero-Human/CICD_pratice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zero-Human/CICD_pratice/issues"
+  },
+  "homepage": "https://github.com/Zero-Human/CICD_pratice#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.2.1",
+    "axois": "^0.0.1-security",
+    "babel": "^6.23.0",
+    "express": "^4.18.2",
+    "jest": "^29.3.1"
+  },
+  "type": "module"
+}
