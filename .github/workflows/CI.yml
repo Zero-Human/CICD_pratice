@@ -48,4 +48,4 @@ jobs:
           --application-name cicd-test
           --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name group
-          --s3-location bucket=cicd-test,bundleType=zip,key=deploy/test.zip
+          --s3-location bucket=cicd-pratice,bundleType=zip,key=deploy/test.zip
