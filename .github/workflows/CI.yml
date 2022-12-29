@@ -41,11 +41,11 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: upload to S3
-        run: aws s3 cp --region ap-northeast-2 ./test.zip s3://cicd-pratice/deploy/
+        run: aws s3 cp --region ap-northeast-2 ./test.zip s3://cicd-pratice/deploy2/
 
       - name: deploy with AWS codeDeploy
         run: aws deploy create-deployment
           --application-name cicd-test
           --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name group
-          --s3-location bucket=cicd-pratice,bundleType=zip,key=deploy/test.zip
+          --s3-location bucket=cicd-pratice,bundleType=zip,key=deploy2/test.zip
