@@ -45,7 +45,7 @@ jobs:
 
       - name: deploy with AWS codeDeploy
         run: aws deploy create-deployment
-          --application-name cicd-test
+          --application-name deploy
           --deployment-config-name CodeDeployDefault.AllAtOnce
-          --deployment-group-name group
+          --deployment-group-name deploy-server
           --s3-location bucket=cicd-pratice,bundleType=zip,key=deploy2/test.zip
